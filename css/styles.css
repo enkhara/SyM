@@ -1,0 +1,8 @@
+
+
+.main {
+    max-width: var(--max-width);
+    /* --centrar main en body-- */
+    margin: auto;
+    padding: 2rem;
+}
