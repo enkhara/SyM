@@ -1,27 +1,57 @@
 .formulario {
     text-align: left;
-    background: tomato;
+    background: white;
 
     width: 300px;
     margin: auto;
+    padding: 1rem;
 
     border-radius: 20px;
     border: solid thin var(--blue-color);
 }
 
+label, 
+input[name=name],
+input[name=password],
+input[type=submit],
+.formulario > p {
+    font-family: textos;
+    border:0;
+    outline: none;
+}
+
 label {
     display: block;
-    font-family: textos;
     font-size: 1.2rem;
     padding: 1rem 0 .2rem .5rem;
+    color: var(--grey-color);
 }
 
 input[name=name],
 input[name=password] {
     display: block;
-
-    font-family: textos;
     width: 100%;
     padding: .5rem .5rem;
+    background: var(--grey-color);
+    opacity: 0.60;
+    color: white;
+    border-bottom: solid 0.1rem var(--blue-color);
+}
 
+input[type=submit]{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+    background: var(--orange-color);
+    font-family: titulos;
+}
+
+.formulario > p {
+    text-align: center;
+}
+
+.formulario > p > a{
+    font-size: .8rem;
+    
 }
