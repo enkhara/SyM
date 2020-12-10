@@ -16,3 +16,8 @@ body {
     background: var(--grey-color);
     
 }
+
+a {
+    text-decoration: none;
+    color: var(--grey-color);
+}
