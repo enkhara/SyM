@@ -1,0 +1,15 @@
+.logo {
+    font-family: titulos;
+    font-size: 3rem;
+    color: var(--orange-color);
+    margin: auto;
+}
+
+.logo span {
+    font-family: titulos;
+    color: var(--grey-color);
+}
+
+.logo span .logo {
+    color: white;
+}

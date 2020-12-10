@@ -1,0 +1,13 @@
+
+
+.header-index {
+    background: var(--blue-color);
+
+    width: 100%;
+
+}
+
+.logo {
+    position: relative;
+    text-align: center;
+}

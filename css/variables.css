@@ -1,0 +1,20 @@
+@font-face {
+    font-family: textos;
+    src: url("../fonts/CabinCondensed-Regular.ttf");
+}
+
+@font-face{
+    font-family: titulos;
+    src: url("../fonts/CarterOne-Regular.ttf");
+}
+
+:root {
+    --grey-color: #3b3c40ff;
+    --blue-color: #05dbf2ff;
+    --brawn-color: #a67458ff;
+    --orange-color: #ff7400;
+
+    --footer-height: 2rem;
+    --navbar-height: 3rem;
+    --max-width: 900px;
+}
