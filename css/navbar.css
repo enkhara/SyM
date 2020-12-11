@@ -1,0 +1,22 @@
+
+.navbar {
+    background: var(--blue-color);
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    height: var(--navbar-height);
+    width: 100%;
+}
+
+.search-icon {
+    height: 34px;
+    width: 34px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: green;
+    
+}

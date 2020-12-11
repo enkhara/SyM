@@ -1,0 +1,81 @@
+input[type=checkbox] {
+    display: none;
+}
+
+.menu-label{
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.menu-label:before {
+    content: '';
+    background-color:var(--orange-color);
+    width: 1.5rem;
+    height: 0.2rem;
+    position: absolute;
+    left: 0.2rem;
+    top: 0.5rem;
+
+    box-shadow: 0 0.4rem 0 0 var(--orange-color), 0 0.8rem 0 0 var(--orange-color);
+}
+/* cerrado */
+.navbar-list {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* abierto */
+#menu:checked ~ .navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:white;
+    
+    height: calc(100vh - var(--navbar-height) - var(--footer-height));
+    opacity: 0.85;
+}
+
+.navbar-item a {
+    display: flex;
+    justify-content: center;
+    color:black;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+
+@media (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar .logo {
+        margin: 0 1rem;
+    }
+
+    .navbar .menu-label {
+        display: none;
+    }
+
+    .navbar-list {
+        display: flex;
+    }
+
+    .navbar-item a {
+        color: black;
+        font-size: 1.2rem;
+        /* line-height: var(--navbar-height); */
+        line-height: 2rem;
+        padding: calc(var(--navbar-height)/2.5) 1rem;
+        /* buscar la manera que augmente el area de link */
+    }
+
+}
