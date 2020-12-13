@@ -41,13 +41,6 @@ h2 {
     padding: .7rem 0 .2rem 0;
 }
 
-@media (min-width: 768px) {
-    main {
-        max-width: var(--max-width);
-
-    }
-}
-
 span{
-    font: bold;
+    font-weight: bold;
 }
