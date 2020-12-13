@@ -1,4 +1,3 @@
-@import url(./reset.css);
 @import url(./variables.css);
 @import url(./logo.css);
 @import url(./navbar.css);
@@ -13,4 +12,21 @@
 
 #novedades {
     padding-top: var(--navbar-height);
+}
+
+#infantil{
+    margin-bottom: var(--footer-height);
+    padding-bottom: 2rem;
+}
+#series{
+    padding-top: 0;
+}
+
+.series-item {
+    color: white;
+}
+
+.slider-item{
+    max-width: 90%;
+    margin: auto;
 }

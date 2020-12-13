@@ -1,18 +1,9 @@
 
-.index-title {
-    font-family: titulos;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1rem 0 0 0;
-    color: white;
-    border: none;
-}
-
 body {
     background: var(--grey-color);
     margin-top: var(--navbar-height);
-    font-family: textos;
-    color: white;
+
+    
 }
 
 a, li {
@@ -20,29 +11,43 @@ a, li {
     color: var(--grey-color);
     font-family: textos;
 }
-
-.series-item {
+main{
+    max-width: 90%;
+    margin: 0 auto 4rem auto;
+    font-family: textos;
     color: white;
-}
-
-main {
-    max-width: var(--max-width);
-    margin: auto;
+    
 }
 
 section {
     padding: 4rem 1rem 0rem 1rem;
 }
 
-h1{
+h1,
+h2{
     font-family: titulos;
+    color: white;
+
+}
+
+h1{
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: white;
     border-bottom: solid thin white;
 }
 
-#infantil{
-    margin-bottom: var(--footer-height);
-    padding-bottom: 2rem;
+h2 {
+    font-size: 1rem;
+    padding: .7rem 0 .2rem 0;
+}
+
+@media (min-width: 768px) {
+    main {
+        max-width: var(--max-width);
+
+    }
+}
+
+span{
+    font: bold;
 }
