@@ -2,12 +2,14 @@
 
 .header-index {
     background: var(--blue-color);
-
+    top:0;
     width: 100%;
-
+    margin:0;
 }
 
-.logo {
-    position: relative;
-    text-align: center;
+header{
+    max-width: var(--max-width);
+    
+    margin: var(--navbar-height) auto 2rem auto;
+    
 }

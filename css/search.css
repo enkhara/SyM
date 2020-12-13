@@ -5,14 +5,14 @@
 /* icono lupa */
 .search-label {
     position: fixed;
-    width: 34px;
-    height: 34px;
+    width: var(--icon-size);
+    height: var(--icon-size);
     background-size: contain;
     background-image: url(../images/lupa-icon.png);
     /* object-fit: scale-down; */
     /* posicionamos */ 
-    top: calc(var(--navbar-height)/2.5);
-    right: .2rem;
+    top: calc(var(--navbar-height) - var(--icon-size)) ;
+    right: 0;
 
 }
 /* caja de busqueda posicionamiento*/
@@ -33,3 +33,15 @@
 #search:checked ~ .search-holder {
     display: flex;
 }
+
+/* @media (min-width:768px) {
+    .search-label {
+        top:.5rem;
+        right: calc(var(--icon-size)+2rem);
+    }
+
+    .search-holder {
+        top:.5rem;
+        right: calc(var(--icon-size) * 2 + 1.5rem)
+    }
+} */

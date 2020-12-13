@@ -13,3 +13,8 @@
 .logo span .logo {
     color: white;
 }
+
+.logo {
+    position: relative;
+    text-align: center;
+}

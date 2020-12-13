@@ -9,14 +9,18 @@
     
     height: var(--navbar-height);
     width: 100%;
+
+    z-index: 2;
 }
 
-.search-icon {
-    height: 34px;
-    width: 34px;
-    position: fixed;
-    top: 0;
+.logout-icon {
+    position: absolute;
+    top: 0.5rem ;
+    height: var(--icon-size);
+    width: var(--icon-size);
     right: 0;
-    background: green;
+}
+
+@media (min-width:768px) {
     
 }

@@ -8,6 +8,7 @@ input[type=checkbox] {
     left: 1.5rem;
     width: 2rem;
     height: 2rem;
+    
 }
 
 .menu-label:before {
@@ -33,10 +34,13 @@ input[type=checkbox] {
 #menu:checked ~ .navbar-list {
     display: flex;
     flex-direction: column;
+    position: fixed;
     justify-content: space-evenly;
     background-color:white;
-    
+    top: 4rem;
+    right: 0;
     height: calc(100vh - var(--navbar-height) - var(--footer-height));
+    width: 100%;
     opacity: 0.85;
 }
 
@@ -67,6 +71,7 @@ input[type=checkbox] {
 
     .navbar-list {
         display: flex;
+        margin-right: 2rem;
     }
 
     .navbar-item a {
@@ -77,5 +82,7 @@ input[type=checkbox] {
         padding: calc(var(--navbar-height)/2.5) 1rem;
         /* buscar la manera que augmente el area de link */
     }
-
+    #menu:checked ~ .navbar-list{
+        display: none;
+    }
 }

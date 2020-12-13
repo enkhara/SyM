@@ -5,5 +5,8 @@
 @import url(./navbar.css);
 @import url(./burguer.css);
 @import url(./footer.css );
+@import url(./header.css);
 /*elmiminar despues de leer */
 @import url(./search.css);
+@import url(./movie.css);
+@import url(./items.css);
